@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测验轮播图</title>
+	<style type="text/css">
+	.swiper-content,.swiper-content1,
+    .swiper-content2,.swiper-content3,
+    .swiper-content4,.swiper-content5{
+        float:left;
+		width:500px;
+		height:333px;
+		overflow: hidden;
+        position:relative;
+	}
+    .swiper-slide,.swiper-slide1
+    .swiper-slide2,.swiper-slide3,
+    .swiper-slide4,.swiper-slide5{
+        float:left;
+        width:50px;
+        height:150px;
+    }
+	.clear::after{
+		content: ".";
+    	clear: both;
+    	display: block;
+    	overflow: hidden;
+    	font-size: 0;
+    	height: 0;
+	}
+	ul{
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+    .wrap{
+        position:relative;
+    }
+	</style>
+</head>
+<body>
+    <div class="wrap clear">
+        <div class="swiper-content"></div>
+        <div class="swiper-slide"></div>
+    </div>
+    <br/>
+    <div class="wrap clear">
+        <div class="swiper-content1"></div>
+        <div class="swiper-slide1"></div>
+    </div>
+    <br/>
+    <div class="wrap clear">
+        <div class="swiper-content2"></div>
+        <div class="swiper-slide2"></div>
+    </div>
+    <br/>
+    <div class="wrap clear">
+        <div class="swiper-content3"></div>
+        <div class="swiper-slide3"></div>
+    </div>
+    <br/>
+    <div class="wrap clear">
+        <div class="swiper-content4"></div>
+        <div class="swiper-slide4"></div>
+    </div>
+    <br/>
+    <div class="wrap clear">
+        <div class="swiper-content5"></div>
+        <div class="swiper-slide5"></div>
+    </div>
+	<script type="text/javascript" src='./js/plugin/plugin.js'></script>
+    <script type="text/javascript" src='./js/index.js'></script>
+</body>
+</html>
